@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.image_sliders{
+    position:absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image_sliders p{
+    position:absolute;
+}
+
+.btn{
+    top: 50%;
+    position:absolute;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn .right{
+    right: 0;
+    justify-content: space-between;
+}
+
+.item{
+    position: relative;
+    color: red;
+    background: black;
+    top: 50;
+    right: 0;
+}
