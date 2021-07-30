@@ -1,32 +1,58 @@
-let text = "Zakeer Mohammad";
-let currentText = 0;
+// var x = document.getElementsByClassName("slide");
+// console.log(x);
 
-// function write(){
-    
-//     const animatedText = document.querySelector(".animation_text");
-//     animatedText.innerHTML = text.substring(0, currentText);
-//     currentText++;
+// var y = x.length;
+// var i;
 
-//     setTimeout(write, 100);
+// document.getElementById("next").addEventListener("click",function(){
+//     for(i=0; i<y;i++){
+//         slides[i].classList.remove("active")
+//     }
+// });
+
+
+// var slide_index = 1;
+// displaySlides(slide_index);
+
+// function nextSlide(n){
+//     displaySlides(slide_index += n);
 // }
 
-// write();
+// function currentSlide(n){
+//     displaySlides(slides_index = n);
+// }
 
-function write(text){
-    let currentText = 0;
 
-    function loop(){
-        const animatedText =document.querySelector(".animation_text");
-        animatedText.innerHTML = text.substring(0, currentText);
+// var i = 0;
+// var images = [];
+// var time = 2000;
 
-        if(currentIndex === Text.length){
-            return;
-        }
+// Images List
 
-        currentIndex++;
+// images[0]   = <img src="https://dummyimage.com/200x100/c1c/fff" alt="">;
+// images [1]  = <img src="https://dummyimage.com/200x100/c1c/fff"></img>;
+// images[2]   = <img src="https://dummyimage.com/200x100/c1c/fff"></img>;
+// images[3]   =  <img src="https://dummyimage.com/200x100/c1c/fff"></img>;
 
-        setTimeout(loop, 100);
-    }
 
-    loop();
-}
+// function mystring(){
+//     document.slide.src = images[i];
+
+//     if(i < images.length - 1){
+//         i++;
+//     }else{
+//         i = 0;
+//     }
+
+//     setTimeout("mystring()", time);
+// }
+
+// window.onload = mystring;
+
+
+$(".slidees").hide("slide", {direction
+ })
+
+ 
+
+
