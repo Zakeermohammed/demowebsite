@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import ParentZak from './App';
-import {Hello,ChildHelo} from './Hello'
+// import ParentZak from './App';
+import Hello from './Hello'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <ParentZak />
+    {/* <ParentZak /> */}
     <Hello/>
   </>
 );
